@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2189C29A19737A4A00AB0C17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2189C29919737A4A00AB0C17 /* Foundation.framework */; };
+		2189C29C19737A4A00AB0C17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2189C29B19737A4A00AB0C17 /* CoreGraphics.framework */; };
+		2189C29E19737A4A00AB0C17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2189C29D19737A4A00AB0C17 /* UIKit.framework */; };
+		2189C2A419737A4A00AB0C17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2189C2A219737A4A00AB0C17 /* InfoPlist.strings */; };
+		2189C2A619737A4A00AB0C17 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2189C2A519737A4A00AB0C17 /* main.m */; };
+		2189C2AA19737A4A00AB0C17 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2189C2A919737A4A00AB0C17 /* AppDelegate.m */; };
+		2189C2AD19737A4A00AB0C17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2189C2AB19737A4A00AB0C17 /* Main.storyboard */; };
+		2189C2B019737A4A00AB0C17 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2189C2AF19737A4A00AB0C17 /* ViewController.m */; };
+		2189C2B219737A4A00AB0C17 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2189C2B119737A4A00AB0C17 /* Images.xcassets */; };
+		2189C2B919737A4A00AB0C17 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2189C2B819737A4A00AB0C17 /* XCTest.framework */; };
+		2189C2BA19737A4A00AB0C17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2189C29919737A4A00AB0C17 /* Foundation.framework */; };
+		2189C2BB19737A4A00AB0C17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2189C29D19737A4A00AB0C17 /* UIKit.framework */; };
+		2189C2C319737A4A00AB0C17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2189C2C119737A4A00AB0C17 /* InfoPlist.strings */; };
+		2189C2C519737A4A00AB0C17 /* LeafNotificationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2189C2C419737A4A00AB0C17 /* LeafNotificationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2189C2BC19737A4A00AB0C17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2189C28E19737A4A00AB0C17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2189C29519737A4A00AB0C17;
+			remoteInfo = LeafNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2189C29619737A4A00AB0C17 /* LeafNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeafNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2189C29919737A4A00AB0C17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2189C29B19737A4A00AB0C17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2189C29D19737A4A00AB0C17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2189C2A119737A4A00AB0C17 /* LeafNotification-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LeafNotification-Info.plist"; sourceTree = "<group>"; };
+		2189C2A319737A4A00AB0C17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2189C2A519737A4A00AB0C17 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2189C2A719737A4A00AB0C17 /* LeafNotification-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeafNotification-Prefix.pch"; sourceTree = "<group>"; };
+		2189C2A819737A4A00AB0C17 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2189C2A919737A4A00AB0C17 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2189C2AC19737A4A00AB0C17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2189C2AE19737A4A00AB0C17 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2189C2AF19737A4A00AB0C17 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2189C2B119737A4A00AB0C17 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2189C2B719737A4A00AB0C17 /* LeafNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeafNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2189C2B819737A4A00AB0C17 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2189C2C019737A4A00AB0C17 /* LeafNotificationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LeafNotificationTests-Info.plist"; sourceTree = "<group>"; };
+		2189C2C219737A4A00AB0C17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2189C2C419737A4A00AB0C17 /* LeafNotificationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeafNotificationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2189C29319737A4A00AB0C17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2189C29C19737A4A00AB0C17 /* CoreGraphics.framework in Frameworks */,
+				2189C29E19737A4A00AB0C17 /* UIKit.framework in Frameworks */,
+				2189C29A19737A4A00AB0C17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2189C2B419737A4A00AB0C17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2189C2B919737A4A00AB0C17 /* XCTest.framework in Frameworks */,
+				2189C2BB19737A4A00AB0C17 /* UIKit.framework in Frameworks */,
+				2189C2BA19737A4A00AB0C17 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2189C28D19737A4A00AB0C17 = {
+			isa = PBXGroup;
+			children = (
+				2189C29F19737A4A00AB0C17 /* LeafNotification */,
+				2189C2BE19737A4A00AB0C17 /* LeafNotificationTests */,
+				2189C29819737A4A00AB0C17 /* Frameworks */,
+				2189C29719737A4A00AB0C17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2189C29719737A4A00AB0C17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2189C29619737A4A00AB0C17 /* LeafNotification.app */,
+				2189C2B719737A4A00AB0C17 /* LeafNotificationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2189C29819737A4A00AB0C17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2189C29919737A4A00AB0C17 /* Foundation.framework */,
+				2189C29B19737A4A00AB0C17 /* CoreGraphics.framework */,
+				2189C29D19737A4A00AB0C17 /* UIKit.framework */,
+				2189C2B819737A4A00AB0C17 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2189C29F19737A4A00AB0C17 /* LeafNotification */ = {
+			isa = PBXGroup;
+			children = (
+				2189C2A819737A4A00AB0C17 /* AppDelegate.h */,
+				2189C2A919737A4A00AB0C17 /* AppDelegate.m */,
+				2189C2AB19737A4A00AB0C17 /* Main.storyboard */,
+				2189C2AE19737A4A00AB0C17 /* ViewController.h */,
+				2189C2AF19737A4A00AB0C17 /* ViewController.m */,
+				2189C2B119737A4A00AB0C17 /* Images.xcassets */,
+				2189C2A019737A4A00AB0C17 /* Supporting Files */,
+			);
+			path = LeafNotification;
+			sourceTree = "<group>";
+		};
+		2189C2A019737A4A00AB0C17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2189C2A119737A4A00AB0C17 /* LeafNotification-Info.plist */,
+				2189C2A219737A4A00AB0C17 /* InfoPlist.strings */,
+				2189C2A519737A4A00AB0C17 /* main.m */,
+				2189C2A719737A4A00AB0C17 /* LeafNotification-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2189C2BE19737A4A00AB0C17 /* LeafNotificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				2189C2C419737A4A00AB0C17 /* LeafNotificationTests.m */,
+				2189C2BF19737A4A00AB0C17 /* Supporting Files */,
+			);
+			path = LeafNotificationTests;
+			sourceTree = "<group>";
+		};
+		2189C2BF19737A4A00AB0C17 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2189C2C019737A4A00AB0C17 /* LeafNotificationTests-Info.plist */,
+				2189C2C119737A4A00AB0C17 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2189C29519737A4A00AB0C17 /* LeafNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2189C2C819737A4A00AB0C17 /* Build configuration list for PBXNativeTarget "LeafNotification" */;
+			buildPhases = (
+				2189C29219737A4A00AB0C17 /* Sources */,
+				2189C29319737A4A00AB0C17 /* Frameworks */,
+				2189C29419737A4A00AB0C17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LeafNotification;
+			productName = LeafNotification;
+			productReference = 2189C29619737A4A00AB0C17 /* LeafNotification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2189C2B619737A4A00AB0C17 /* LeafNotificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2189C2CB19737A4A00AB0C17 /* Build configuration list for PBXNativeTarget "LeafNotificationTests" */;
+			buildPhases = (
+				2189C2B319737A4A00AB0C17 /* Sources */,
+				2189C2B419737A4A00AB0C17 /* Frameworks */,
+				2189C2B519737A4A00AB0C17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2189C2BD19737A4A00AB0C17 /* PBXTargetDependency */,
+			);
+			name = LeafNotificationTests;
+			productName = LeafNotificationTests;
+			productReference = 2189C2B719737A4A00AB0C17 /* LeafNotificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2189C28E19737A4A00AB0C17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Wang;
+				TargetAttributes = {
+					2189C2B619737A4A00AB0C17 = {
+						TestTargetID = 2189C29519737A4A00AB0C17;
+					};
+				};
+			};
+			buildConfigurationList = 2189C29119737A4A00AB0C17 /* Build configuration list for PBXProject "LeafNotification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2189C28D19737A4A00AB0C17;
+			productRefGroup = 2189C29719737A4A00AB0C17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2189C29519737A4A00AB0C17 /* LeafNotification */,
+				2189C2B619737A4A00AB0C17 /* LeafNotificationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2189C29419737A4A00AB0C17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2189C2B219737A4A00AB0C17 /* Images.xcassets in Resources */,
+				2189C2A419737A4A00AB0C17 /* InfoPlist.strings in Resources */,
+				2189C2AD19737A4A00AB0C17 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2189C2B519737A4A00AB0C17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2189C2C319737A4A00AB0C17 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2189C29219737A4A00AB0C17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2189C2B019737A4A00AB0C17 /* ViewController.m in Sources */,
+				2189C2AA19737A4A00AB0C17 /* AppDelegate.m in Sources */,
+				2189C2A619737A4A00AB0C17 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2189C2B319737A4A00AB0C17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2189C2C519737A4A00AB0C17 /* LeafNotificationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2189C2BD19737A4A00AB0C17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2189C29519737A4A00AB0C17 /* LeafNotification */;
+			targetProxy = 2189C2BC19737A4A00AB0C17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2189C2A219737A4A00AB0C17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2189C2A319737A4A00AB0C17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2189C2AB19737A4A00AB0C17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2189C2AC19737A4A00AB0C17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2189C2C119737A4A00AB0C17 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2189C2C219737A4A00AB0C17 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2189C2C619737A4A00AB0C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2189C2C719737A4A00AB0C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2189C2C919737A4A00AB0C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeafNotification/LeafNotification-Prefix.pch";
+				INFOPLIST_FILE = "LeafNotification/LeafNotification-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2189C2CA19737A4A00AB0C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeafNotification/LeafNotification-Prefix.pch";
+				INFOPLIST_FILE = "LeafNotification/LeafNotification-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2189C2CC19737A4A00AB0C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LeafNotification.app/LeafNotification";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeafNotification/LeafNotification-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LeafNotificationTests/LeafNotificationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2189C2CD19737A4A00AB0C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LeafNotification.app/LeafNotification";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LeafNotification/LeafNotification-Prefix.pch";
+				INFOPLIST_FILE = "LeafNotificationTests/LeafNotificationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2189C29119737A4A00AB0C17 /* Build configuration list for PBXProject "LeafNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2189C2C619737A4A00AB0C17 /* Debug */,
+				2189C2C719737A4A00AB0C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2189C2C819737A4A00AB0C17 /* Build configuration list for PBXNativeTarget "LeafNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2189C2C919737A4A00AB0C17 /* Debug */,
+				2189C2CA19737A4A00AB0C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2189C2CB19737A4A00AB0C17 /* Build configuration list for PBXNativeTarget "LeafNotificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2189C2CC19737A4A00AB0C17 /* Debug */,
+				2189C2CD19737A4A00AB0C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2189C28E19737A4A00AB0C17 /* Project object */;
+}
