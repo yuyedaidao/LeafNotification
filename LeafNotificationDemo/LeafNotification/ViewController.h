@@ -10,7 +10,6 @@
 
 @interface ViewController : UIViewController
 - (IBAction)showNotification:(id)sender;
-- (IBAction)back:(id)sender;
-
+- (IBAction)showSuccessNotification:(id)sender;
 
 @end

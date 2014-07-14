@@ -10,6 +10,8 @@
 		2138837F197380E800446AD3 /* LeafNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 2138837E197380E800446AD3 /* LeafNotification.m */; };
 		21388382197383CB00446AD3 /* notification_warring.png in Resources */ = {isa = PBXBuildFile; fileRef = 21388380197383CB00446AD3 /* notification_warring.png */; };
 		21388383197383CB00446AD3 /* notification_warring@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21388381197383CB00446AD3 /* notification_warring@2x.png */; };
+		2138838A1973D7FC00446AD3 /* notification_success.png in Resources */ = {isa = PBXBuildFile; fileRef = 213883881973D7FC00446AD3 /* notification_success.png */; };
+		2138838B1973D7FC00446AD3 /* notification_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 213883891973D7FC00446AD3 /* notification_success@2x.png */; };
 		2189C29A19737A4A00AB0C17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2189C29919737A4A00AB0C17 /* Foundation.framework */; };
 		2189C29C19737A4A00AB0C17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2189C29B19737A4A00AB0C17 /* CoreGraphics.framework */; };
 		2189C29E19737A4A00AB0C17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2189C29D19737A4A00AB0C17 /* UIKit.framework */; };
@@ -41,6 +43,8 @@
 		2138837E197380E800446AD3 /* LeafNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeafNotification.m; sourceTree = "<group>"; };
 		21388380197383CB00446AD3 /* notification_warring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notification_warring.png; sourceTree = "<group>"; };
 		21388381197383CB00446AD3 /* notification_warring@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notification_warring@2x.png"; sourceTree = "<group>"; };
+		213883881973D7FC00446AD3 /* notification_success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notification_success.png; sourceTree = "<group>"; };
+		213883891973D7FC00446AD3 /* notification_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notification_success@2x.png"; sourceTree = "<group>"; };
 		2189C29619737A4A00AB0C17 /* LeafNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeafNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2189C29919737A4A00AB0C17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2189C29B19737A4A00AB0C17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -89,6 +93,8 @@
 		2138837C1973807600446AD3 /* LeafNotificationView */ = {
 			isa = PBXGroup;
 			children = (
+				213883881973D7FC00446AD3 /* notification_success.png */,
+				213883891973D7FC00446AD3 /* notification_success@2x.png */,
 				21388380197383CB00446AD3 /* notification_warring.png */,
 				21388381197383CB00446AD3 /* notification_warring@2x.png */,
 				2138837D197380E800446AD3 /* LeafNotification.h */,
@@ -249,7 +255,9 @@
 			files = (
 				2189C2B219737A4A00AB0C17 /* Images.xcassets in Resources */,
 				2189C2A419737A4A00AB0C17 /* InfoPlist.strings in Resources */,
+				2138838A1973D7FC00446AD3 /* notification_success.png in Resources */,
 				2189C2AD19737A4A00AB0C17 /* Main.storyboard in Resources */,
+				2138838B1973D7FC00446AD3 /* notification_success@2x.png in Resources */,
 				21388382197383CB00446AD3 /* notification_warring.png in Resources */,
 				21388383197383CB00446AD3 /* notification_warring@2x.png in Resources */,
 			);

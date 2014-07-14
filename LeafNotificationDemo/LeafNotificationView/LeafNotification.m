@@ -19,6 +19,7 @@
 @property(nonatomic,strong) NSString *text;
 @property(nonatomic,strong) UIImageView *flagImageView;
 @property(nonatomic,strong) UILabel *textLabel;
+
 @end
 @implementation LeafNotification
 
@@ -29,7 +30,7 @@
         // Initialization code
         self.layer.backgroundColor = [UIColor blackColor].CGColor;
         self.layer.cornerRadius = 5.0f;
-        self.layer.opacity = 0.3;
+        self.layer.opacity = 0.25;
         
         _textLabel = [[UILabel alloc] initWithFrame:frame];
 //        self.textLabel.backgroundColor = [UIColor clearColor];
@@ -53,6 +54,13 @@
     
 }
 */
+-(void)setType:(LeafNotificationType)type{
+    if(LeafNotificationTypeWarrning == type){
+        self.flagImageView.image = [UIImage imageNamed:@"notification_warring"];
+    }else if(LeafNotificationTypeSuccess){
+        self.flagImageView.image = [UIImage imageNamed:@"notification_success"];
+    }
+}
 -(instancetype)initWithController:(UIViewController *)controller text:(NSString *)text{
     if([self initWithFrame:CGRectMake(0, -DEFAULT_HEIGHT, controller.view.bounds.size.width*DEFAULT_RATE_WIDTH, DEFAULT_HEIGHT)]){
         self.text = text;
@@ -111,10 +119,13 @@
     }
 }
 +(void)showInController:(UIViewController *)controller withText:(NSString *)text{
+    [self showInController:controller withText:text type:LeafNotificationTypeWarrning];
+}
++(void)showInController:(UIViewController *)controller withText:(NSString *)text type:(LeafNotificationType)type{
     LeafNotification *notification = [[LeafNotification alloc] initWithController:controller text:text];
     [controller.view addSubview:notification];
+    notification.type = type;
     [notification showWithAnimation:YES];
     
 }
-
 @end

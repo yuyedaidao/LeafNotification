@@ -32,7 +32,9 @@
     [LeafNotification showInController:self withText:@"我是一个粉刷匠"];
 }
 
-- (IBAction)back:(id)sender {
-    [self dismissViewControllerAnimated:YES completion:nil];
+- (IBAction)showSuccessNotification:(id)sender {
+    [LeafNotification showInController:self withText:@"我是一个粉刷匠" type:LeafNotificationTypeSuccess];
 }
+
+
 @end
