@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LeafNotification.h"
 
 @interface ViewController ()
 
@@ -18,6 +19,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +28,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)showNotification:(id)sender {
+    [LeafNotification showInController:self withText:@"我是一个粉刷匠"];
+}
+
+- (IBAction)back:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 @end

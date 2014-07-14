@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+- (IBAction)showNotification:(id)sender;
+- (IBAction)back:(id)sender;
+
 
 @end

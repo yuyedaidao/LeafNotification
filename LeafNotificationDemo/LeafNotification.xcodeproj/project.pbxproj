@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2138837F197380E800446AD3 /* LeafNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = 2138837E197380E800446AD3 /* LeafNotification.m */; };
+		21388382197383CB00446AD3 /* notification_warring.png in Resources */ = {isa = PBXBuildFile; fileRef = 21388380197383CB00446AD3 /* notification_warring.png */; };
+		21388383197383CB00446AD3 /* notification_warring@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 21388381197383CB00446AD3 /* notification_warring@2x.png */; };
 		2189C29A19737A4A00AB0C17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2189C29919737A4A00AB0C17 /* Foundation.framework */; };
 		2189C29C19737A4A00AB0C17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2189C29B19737A4A00AB0C17 /* CoreGraphics.framework */; };
 		2189C29E19737A4A00AB0C17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2189C29D19737A4A00AB0C17 /* UIKit.framework */; };
@@ -34,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2138837D197380E800446AD3 /* LeafNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeafNotification.h; sourceTree = "<group>"; };
+		2138837E197380E800446AD3 /* LeafNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeafNotification.m; sourceTree = "<group>"; };
+		21388380197383CB00446AD3 /* notification_warring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notification_warring.png; sourceTree = "<group>"; };
+		21388381197383CB00446AD3 /* notification_warring@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notification_warring@2x.png"; sourceTree = "<group>"; };
 		2189C29619737A4A00AB0C17 /* LeafNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeafNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2189C29919737A4A00AB0C17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2189C29B19737A4A00AB0C17 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -79,9 +86,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2138837C1973807600446AD3 /* LeafNotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				21388380197383CB00446AD3 /* notification_warring.png */,
+				21388381197383CB00446AD3 /* notification_warring@2x.png */,
+				2138837D197380E800446AD3 /* LeafNotification.h */,
+				2138837E197380E800446AD3 /* LeafNotification.m */,
+			);
+			path = LeafNotificationView;
+			sourceTree = "<group>";
+		};
 		2189C28D19737A4A00AB0C17 = {
 			isa = PBXGroup;
 			children = (
+				2138837C1973807600446AD3 /* LeafNotificationView */,
 				2189C29F19737A4A00AB0C17 /* LeafNotification */,
 				2189C2BE19737A4A00AB0C17 /* LeafNotificationTests */,
 				2189C29819737A4A00AB0C17 /* Frameworks */,
@@ -231,6 +250,8 @@
 				2189C2B219737A4A00AB0C17 /* Images.xcassets in Resources */,
 				2189C2A419737A4A00AB0C17 /* InfoPlist.strings in Resources */,
 				2189C2AD19737A4A00AB0C17 /* Main.storyboard in Resources */,
+				21388382197383CB00446AD3 /* notification_warring.png in Resources */,
+				21388383197383CB00446AD3 /* notification_warring@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2138837F197380E800446AD3 /* LeafNotification.m in Sources */,
 				2189C2B019737A4A00AB0C17 /* ViewController.m in Sources */,
 				2189C2AA19737A4A00AB0C17 /* AppDelegate.m in Sources */,
 				2189C2A619737A4A00AB0C17 /* main.m in Sources */,
@@ -456,6 +478,7 @@
 				2189C2CA19737A4A00AB0C17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2189C2CB19737A4A00AB0C17 /* Build configuration list for PBXNativeTarget "LeafNotificationTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +487,7 @@
 				2189C2CD19737A4A00AB0C17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
